@@ -1,0 +1,758 @@
+@import url("https://fonts.cdnfonts.com/css/caviar-dreams");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h3 {
+  font-family: "Caviar Dreams", sans-serif;
+  font-weight: 800 !important;
+  font-size: 36px;
+}
+
+h1 {
+  color: #fff;
+}
+
+h4 {
+  font-family: "Caviar Dreams", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h5 {
+  font-family: "Miniver", cursive;
+  font-size: 18px;
+  color: #c9ab81;
+  z-index: 600;
+}
+
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #999;
+  z-index: 600;
+}
+
+body {
+  background-color: #000000;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+  display: inline-block;
+}
+
+.back-to-top img {
+  width: 50%;
+}
+
+.back-to-top:hover {
+  cursor: pointer;
+}
+
+/* Header area css start */
+
+header {
+  /* height: 100vh; */
+  background-color: #fff;
+}
+
+.header-1 {
+  background-color: #000000;
+}
+
+/* Nav bar css */
+
+.all-btn-1 {
+  background-color: #c9ab81;
+  padding: 15px 28px;
+  border: solid #c9ab81;
+  letter-spacing: 2;
+  font-family: "Caviar Dreams", sans-serif;
+  color: #fff;
+  transition: 0.4s all ease-in-out;
+  display: none;
+}
+
+.all-btn {
+  background-color: #c9ab81;
+  padding: 15px 28px;
+  border: solid #c9ab81;
+  letter-spacing: 2;
+  font-family: "Caviar Dreams", sans-serif;
+  color: #fff;
+  transition: 0.4s all ease-in-out;
+  display: block;
+}
+
+.nav-item {
+  font: size 14px;
+  text-transform: uppercase;
+  font-family: "Caviar Dreams", sans-serif;
+  padding: 8px 15px;
+  font-weight: 700;
+  
+}
+
+.active {
+  color: #c9ab81 !important;
+}
+.all-btn:hover {
+  padding: 15px 28px;
+  background-color: rgba(201, 171, 129, 0);
+  border: solid #c9ab81;
+  letter-spacing: 2;
+  font-family: "Caviar Dreams", sans-serif;
+  color: #fff;
+  transition: 0.4s all ease-in-out;
+}
+
+/* owl-carousel css */
+
+.owl-prev,
+.owl-next {
+  background-color: #ffffff !important;
+  width: 60px;
+  height: 60px;
+  /* padding: 10px 20px !important; */
+  border-radius: 50% !important;
+  font-size: 30px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: -10px !important;
+  margin: 0 !important;
+  position: absolute;
+}
+
+.owl-nav .owl-next {
+  justify-items: flex-end;
+  right: 10px;
+  top: 40%;
+  background-color: #ffffff !important;
+}
+
+.owl-nav .owl-prev {
+  justify-items: flex-end;
+  left: 10px;
+  top: 40%;
+  background-color: #ffffff !important;
+}
+
+.hero-sec .owl-nav {
+  opacity: 0;
+  transition: all 0.5s ease-in-out !important;
+}
+
+.hero-sec:hover .owl-nav {
+  opacity: 1;
+  background-color: #c9ab81 !important;
+}
+
+/ .owl-dots {
+  display: none;
+}
+
+.fa-calendar-days{
+   padding-right: 5px;
+   color: #fff;
+}
+
+.item-bg1 {
+  background: url(../images/header_bg2.jpg) rgba(0, 0, 0, 0.584);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.item-bg1 h2 {
+  font-family: "Caviar Dreams", sans-serif;
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.139;
+  padding: 10px 0px 30px;
+  text-transform: uppercase;
+}
+
+.item-bg1 h5 {
+  font-family: "Miniver", cursive;
+  font-size: 18px;
+  color: #c9ab81;
+}
+
+.item-bg2 {
+  background: url(../images/header_bg1.jpg) rgba(0, 0, 0, 0.584);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  background-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+}
+
+.item-bg2 h2 {
+  font-family: "Caviar Dreams", sans-serif;
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.139;
+  padding: 10px 0px 30px;
+  text-transform: uppercase;
+}
+
+.item-bg2 h5 {
+  font-family: "Miniver", cursive;
+  font-size: 18px;
+  color: #c9ab81;
+}
+
+.item-bg3 {
+  background: url(../images/header_bg.jpg) rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.item-bg3 h2 {
+  font-family: "Caviar Dreams", sans-serif;
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.139;
+  padding: 10px 0px 30px;
+  text-transform: uppercase;
+}
+
+.item-bg3 h5 {
+  font-family: "Miniver", cursive;
+  font-size: 18px;
+  color: #c9ab81;
+}
+
+/* INFO SECTION CSS STRATS */
+
+.sub-col {
+  background-color: #0e1415;
+}
+
+.sub-col h3 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.sub-col p {
+  font-size: 15px;
+  color: #999999;
+}
+
+.Food-info {
+  background-color: #090d0e;
+}
+
+.boxes {
+  position: absolute;
+  top: -8em;
+  z-index: 100;
+}
+
+#effect {
+  position: relative;
+  perspective: 1000px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  backface-visibility: visible;
+  -moz-backface-visibility: visible;
+}
+
+#effect:hover {
+  transform: rotateY(360deg);
+}
+
+/* ABOUT SECTION CSS STARTS */
+
+.about {
+  background-color: #090d0e;
+}
+
+.right-side h5 {
+  font-family: "Miniver", cursive;
+  font-size: 18px;
+  color: #c9ab81;
+}
+
+.right-side h3 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.167;
+  text-transform: uppercase;
+  width: 70%;
+}
+
+.right-side h6 {
+  color: #999;
+  line-height: 1.67;
+  font-family: sans-serif;
+  padding: 15px 0 15px 0;
+  width: 85%;
+}
+
+.holographic-card {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+.holographic-card::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(0deg, transparent, transparent 30%, #ffffff56);
+  transform: rotate(-45deg);
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.holographic-card:hover::before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
+
+/* ABOUT SECTION PART TWO CSS */
+
+.part-two {
+  padding: 7.5em 0 7.5em 0em;
+}
+
+.part-two h3 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.167;
+  text-transform: uppercase;
+  width: 70%;
+}
+
+.middle {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.middle h6 {
+  line-height: 1.5;
+}
+
+/* SPECIAL MENUS CSS SECTION */
+
+.container1 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.special-menus {
+  background-color: #090d0e;
+  padding-bottom: 5rem !important;
+}
+
+.special-menus h3 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.167;
+  text-transform: uppercase;
+}
+
+.noodles-1 {
+  border-bottom: 2px dashed;
+}
+
+.noodles-10 {
+  background-color: #131b1d;
+  padding: 10px 10px;
+  border-radius: 50px;
+  color: #c9ab81;
+}
+
+.burger {
+  padding-top: 35px;
+  border-bottom: solid rgba(188, 185, 185, 0.228) 2px;
+}
+
+/* Rotate */
+.hvr-rotate {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-rotate:hover,
+.hvr-rotate:focus,
+.hvr-rotate:active {
+  -webkit-transform: rotate(4deg);
+  transform: rotate(4deg);
+}
+
+/* burger-1 */
+
+#fnt-ajt {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Caviar Dreams", sans-serif;
+  color: #fff;
+}
+.burger-1 p {
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  color: #acb8bb;
+}
+
+.txt-clr {
+  color: #c9ab81;
+}
+
+/* VIDEO SECTION CSS STARTS */
+
+.video {
+  background-image: url(../images/header_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+
+/* find us section css */
+
+.find-us {
+  background-color: #090d0e;
+  padding: 120px 0 90px 0;
+}
+
+.para2 {
+  color: #999;
+  line-height: 2;
+}
+
+.opening-time {
+  background-color: #c9ab81;
+  padding: 60px 0 50px 0;
+}
+
+/* Wobble To Top Right */
+@-webkit-keyframes hvr-wobble-to-top-right {
+  16.65% {
+    -webkit-transform: translate(8px, -8px);
+    transform: translate(8px, -8px);
+  }
+  33.3% {
+    -webkit-transform: translate(-6px, 6px);
+    transform: translate(-6px, 6px);
+  }
+  49.95% {
+    -webkit-transform: translate(4px, -4px);
+    transform: translate(4px, -4px);
+  }
+  66.6% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  83.25% {
+    -webkit-transform: translate(1px, -1px);
+    transform: translate(1px, -1px);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+@keyframes hvr-wobble-to-top-right {
+  16.65% {
+    -webkit-transform: translate(8px, -8px);
+    transform: translate(8px, -8px);
+  }
+  33.3% {
+    -webkit-transform: translate(-6px, 6px);
+    transform: translate(-6px, 6px);
+  }
+  49.95% {
+    -webkit-transform: translate(4px, -4px);
+    transform: translate(4px, -4px);
+  }
+  66.6% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  83.25% {
+    -webkit-transform: translate(1px, -1px);
+    transform: translate(1px, -1px);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+.hvr-wobble-to-top-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-wobble-to-top-right:hover,
+.hvr-wobble-to-top-right:focus,
+.hvr-wobble-to-top-right:active {
+  -webkit-animation-name: hvr-wobble-to-top-right;
+  animation-name: hvr-wobble-to-top-right;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+/* <!-- APPOINTMENT SECTION HTML START --> */
+
+.make-appointment {
+  background-color: #090d0e;
+  padding: 50px 0 130px 0;
+}
+
+.Appointment {
+  background-color: #0d1213;
+}
+
+.color-cng {
+  color: #c9ab81;
+}
+
+.icon-top {
+  padding: 120px 0 60px 0;
+  border-bottom: solid 1px;
+  margin-bottom: 35px;
+}
+
+/* icons edit */
+
+.fa-facebook-f {
+  background-color: #3b5999;
+  padding: 15px 20px;
+  font-size: 18px;
+}
+
+.fa-twitter {
+  background-color: #55acee;
+  padding: 15px 20px;
+  font-size: 18px;
+}
+
+.fa-youtube {
+  background-color: #cd201f;
+  padding: 15px 20px;
+  font-size: 18px;
+}
+
+.dec-edit {
+  color: #c9ab81;
+  font-family: "Caviar Dreams", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-top: 7px;
+}
+
+.h4-txt {
+  color: #acb8bb;
+  font-family: "Caviar Dreams", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+/* FOOTER section CSS */
+
+footer {
+  background-color: #050708;
+}
+
+/* copyright sec */
+
+.copy-clr {
+  color: #c9ab81;
+}
+
+.copyright {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Caviar Dreams", sans-serif;
+  font-weight: 300;
+}
+
+.copyright-sec {
+  padding: 30px 0;
+  background-color: #020303;
+}
+
+/* @media only screen and (max-width: 600px) */
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand img {
+    width: 80%;
+    height: auto;
+  }
+
+  .back-to-top {
+    display: none !important;
+  }
+
+  .owl-nav {
+    display: none;
+  }
+
+  .all-btn-1 {
+    background-color: #c9ab81;
+    padding: 5px 10px;
+    border: solid #c9ab81;
+    font-family: "Caviar Dreams", sans-serif;
+    color: #fff;
+    transition: 0.4s all ease-in-out;
+    display: block;
+  }
+
+  .all-btn {
+    display: none;
+  }
+  .item-bg1 {
+    padding: 0 25px;
+  }
+
+  .item-bg2 {
+    padding: 0 25px;
+  }
+
+  .item-bg3 {
+    padding: 0 25px;
+  }
+
+  .boxes {
+    position: static;
+  }
+
+  .right-side {
+    padding: 50px 25px;
+  }
+
+  .responsive-1 {
+    font-size: 35px !important;
+  }
+
+  .special-menus {
+    padding: 0 25px;
+  }
+
+  .responsive-2 {
+    padding: 50px 25px;
+  }
+  .hvr-wobble-to-top-right {
+    text-align: center;
+  }
+
+  #resp-img {
+    width: 20%;
+    padding-top: 25px;
+  }
+
+  .resp-edit {
+    font-size: 26px !important;
+    margin: 0 auto;
+    width: 60%;
+    line-height: 1.5;
+  }
+
+
+  .video{
+   height: 40vh;
+  }
+
+.find-us {
+  background-color: #090d0e;
+  padding: 10px 0;
+}
+
+  .icon-top {
+    padding: 60px 0 60px 0;
+    border-bottom: solid 1px;
+    margin-bottom: 35px;
+  }
+
+  .opening-time {
+  background-color: #c9ab81;
+  padding: 40px 50px 40px 50px;
+}
+
+  .resp-left {
+    padding: 0 60px;
+    margin: 0 auto;
+  }
+
+  .map {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+
+  .h4-txt {
+    color: #c3cacd;
+    font-family: "Caviar Dreams", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1.625;
+  }
+
+  h4 {
+    font-family: "Caviar Dreams", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 15px;
+  }
+
+  .resp-right {
+    padding: 0 25px;
+  }
+
+  .make-appointment {
+    background-color: #090d0e;
+    padding: 50px 0 50px 0;
+  }
+}
